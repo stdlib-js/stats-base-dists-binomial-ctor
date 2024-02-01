@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-binomial-ctor
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import Binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-ctor@esm/index.mjs';
+var Binomial = require( '@stdlib/stats-base-dists-binomial-ctor' );
 ```
 
 #### Binomial( \[n, p] )
@@ -280,13 +298,8 @@ y = binomial.quantile( 1.9 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import Binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-ctor@esm/index.mjs';
+```javascript
+var Binomial = require( '@stdlib/stats-base-dists-binomial-ctor' );
 
 var binomial = new Binomial( 10, 0.4 );
 
@@ -301,10 +314,6 @@ var s2 = binomial.variance;
 
 var y = binomial.cdf( 0.8 );
 // returns ~0.006
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -336,7 +345,7 @@ var y = binomial.cdf( 0.8 );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -390,8 +399,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/stats-base-dists-binomial-ctor/tree/deno
+[deno-readme]: https://github.com/stdlib-js/stats-base-dists-binomial-ctor/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/stats-base-dists-binomial-ctor/tree/umd
+[umd-readme]: https://github.com/stdlib-js/stats-base-dists-binomial-ctor/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-binomial-ctor/tree/esm
+[esm-readme]: https://github.com/stdlib-js/stats-base-dists-binomial-ctor/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-binomial-ctor/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-binomial-ctor/main/LICENSE
