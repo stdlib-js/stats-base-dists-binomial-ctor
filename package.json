@@ -41,7 +41,7 @@
     "@stdlib/assert-is-probability": "^0.2.2",
     "@stdlib/stats-base-dists-binomial-cdf": "^0.2.2",
     "@stdlib/stats-base-dists-binomial-kurtosis": "^0.2.2",
-    "@stdlib/stats-base-dists-binomial-logpmf": "^0.2.1",
+    "@stdlib/stats-base-dists-binomial-logpmf": "^0.2.2",
     "@stdlib/stats-base-dists-binomial-mean": "^0.2.2",
     "@stdlib/stats-base-dists-binomial-median": "^0.2.2",
     "@stdlib/stats-base-dists-binomial-mgf": "^0.2.2",
