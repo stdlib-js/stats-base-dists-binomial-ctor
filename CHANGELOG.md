@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2025-11-21)
 
 <section class="commits">
 
@@ -12,7 +12,9 @@
 
 <details>
 
--   [`7279e43`](https://github.com/stdlib-js/stdlib/commit/7279e433dc1936056560624b5892eea8d9350ef1) - **bench:** update random value generation [(#6853)](https://github.com/stdlib-js/stdlib/pull/6853) _(by Harsh)_
+-   [`2cabe18`](https://github.com/stdlib-js/stdlib/commit/2cabe1887e6a502a306b70580fb5d038da0917f3) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`7279e43`](https://github.com/stdlib-js/stdlib/commit/7279e433dc1936056560624b5892eea8d9350ef1) - **bench:** update random value generation [(#6853)](https://github.com/stdlib-js/stdlib/pull/6853) _(by Harsh Yadav)_
 -   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
 -   [`af55f0d`](https://github.com/stdlib-js/stdlib/commit/af55f0d6d6b4d06c36f46357740ea89a4639ab5b) - **bench:** refactor random number generation in `stats/base/dists/binomial` [(#4841)](https://github.com/stdlib-js/stdlib/pull/4841) _(by Karan Anand)_
 
@@ -26,10 +28,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
