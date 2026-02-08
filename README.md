@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-ctor@deno/mod.js';
+import Binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-ctor@v0.2.3-deno/mod.js';
 ```
 
 #### Binomial( \[n, p] )
@@ -281,7 +281,7 @@ y = binomial.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-ctor@deno/mod.js';
+import Binomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-binomial-ctor@v0.2.3-deno/mod.js';
 
 var binomial = new Binomial( 10, 0.4 );
 
