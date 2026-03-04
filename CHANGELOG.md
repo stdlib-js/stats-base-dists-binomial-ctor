@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-25)
+## Unreleased (2026-03-04)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`675c404`](https://github.com/stdlib-js/stdlib/commit/675c404341e210a6ff4d37477bbc3f79e927fd8d) - **bench:** refactor to use string interpolation in `stats/base/dists/binomial` [(#10176)](https://github.com/stdlib-js/stdlib/pull/10176) _(by Vishal Gaikwad)_
 -   [`4756e95`](https://github.com/stdlib-js/stdlib/commit/4756e952607ba75dc0013d2b8e226e7d3db000d9) - **docs:** use \"probability mass function\" instead of \"probability density function\" for PMF methods _(by Philipp Burckhardt)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
+-   Vishal Gaikwad
 
 </section>
 
