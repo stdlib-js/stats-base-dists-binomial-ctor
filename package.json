@@ -104,7 +104,12 @@
     "properties",
     "props",
     "univariate",
-    "discrete"
+    "discrete",
+    "bernoulli",
+    "binom",
+    "successes",
+    "independent trials",
+    "exponential family"
   ],
   "funding": {
     "type": "opencollective",
